@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
 }
+
 /*navbar*/
 .navbar {
     padding: 20px;
@@ -66,6 +67,48 @@ button:hover{
     cursor: pointer;
     background-color: aquamarine;
     color: #330000;
+}
+/*io section*/
+.javascript-updates{
+    text-align: center;
+    margin: 10px 0px;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    cursor: pointer;
+}
+.javascript-updates:nth-child(1){
+    color: #4f4f4f;
+    transition: transform .3s ease-in-out;
+}
+.javascript-updates:nth-child(1):hover{
+    color: #4f4f4f;
+    transform: scale(1.04);
+}
+.javascript-updates:nth-child(2){
+    color: #a34c55;
+    transition: transform .3s ease-in-out;
+}
+.javascript-updates:nth-child(2):hover{
+    color: #a34c55;
+    transform: scale(1.04);
+}
+.javascript-updates:nth-child(3){
+    color: #3805db;
+    transition: transform .3s ease-in-out;
+}
+.javascript-updates:nth-child(3):hover{
+    color: #3805db;
+    transform: scale(1.04);
+}
+.javascript-updates:nth-child(4){
+    color:#b08354;
+    transition: transform .3s ease-in-out;
+}
+.javascript-updates:nth-child(4):hover{
+    color:#b08354;
+    transform: scale(1.04);
 }
 /*footer*/
 .footer{
