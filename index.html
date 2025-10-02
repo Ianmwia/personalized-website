@@ -8,25 +8,32 @@
 </head>
 <body>
 <!--navbar-->
-
+<nav class="navbar">
+    <p>Personalized Website</p>
+</nav>
+<hr>
 <!--main body-->
-<main>
-    <section class="form">
-        <form action="">
-            <label for="username" placeholder="Name"></label>
-            <input type="text" name="username" id="username">
-            <label for="age" placeholder="age"></label>
-            <input type="text" name="age" id="age">
-            <button type="submit">Submit</button>
+<main class="main-section">
+    <section class="all-together"></section>
+    <section class="the-form">
+        <form action="" id="form">
+            <label for="username"></label>
+            <input type="text" name="username" id="username" placeholder="name" required>
+            <label for="age"></label>
+            <input type="number" name="age" id="age" placeholder="enter your age in years" required>
+            <button type="submit" onclick="showAgeInMonths()">Submit</button>
         </form>
     </section>
-    <section class="greetings"></section>
-    <section class="age-in-months"></section>
-    <section class="motivational-quote"></section>
+    <section id="adult-section"></section>
+    <section id="greetings"></section>
+    <section id="age-in-months"></section>
+    <section id="motivational-quote"></section>
 
 </main>
 <!--footer-->
-
+<footer class="footer">
+    <p>&copy; 2025 Personalized Web page</p>
+</footer>
     <script src="script.js"></script>
 </body>
 </html>
