@@ -76,3 +76,17 @@ function motivationalQuote(age){
     const repeatFive = `${whichQuote}<br>`.repeat(5);
     document.getElementById('motivational-quote').innerHTML = repeatFive;
 }
+//local storage
+function theLocalstorage(yourName, age){
+    localStorage.setItem('name', yourName)
+    localStorage.setItem('age', age)
+}
+document.getElementById('form').addEventListener('submit', function(stopReload){
+    stopReload.preventDefault()
+
+    const name = document.getElementById('username').value
+    const age = document.getElementById('age').value
+
+    theLocalstorage(name, age)
+
+});
